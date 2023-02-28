@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>The Rick and Morty API</title>
+    <link rel="icon" href="images/rick-and-morty-icon.png" type="image/png">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="file:///C:/Users/OYILDIZ/Desktop/web/%C3%B6dev/index.html?#">
+                <img width="45" height="45" src="images/rick-and-morty-icon.png"></img>
+            </a>
+        </div>
+
+        <div class="navbar-items">
+            <ul class="align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="_self">Docs</a> <!--şimdilik link yok-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/OYILDIZ/Desktop/web/theRickAndMortyApi/about.html" target="_self">About</a>
+                </li>
+                <li class="nav-item" id="supportUs">
+                    <a class="nav-link" href="#" target="_self">SUPPORT US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" id="supportUs-icon" title="support us">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="header">
+            <h1>The Rick and Morty API</h1> 
+        </section>
+
+        <section class="show-character-cards">
+            <div class="character-cards">
+                <div class="row d-inline">
+                <div class="col-md-12 justify-content-center align-items-center d-flex"> <!-- width değeri verip iki kolon yapmak için-->
+                    <div class="card border-0 flex-row d-flex" style="width: 37.5rem; height: 220px;"> <!--resim ve yazı row olmalı-->
+                        <img class="card-image" src="images/241.jpeg">
+                        <div class="card-body">
+                            <h3 class="cardTitle mt-1">Card title</h3>
+                            <div class="d-flex align-items-center mb-3" style="width: 100%;">
+                                <span class="status-icon" style="margin-right: 0.5rem;"></span> <!--border-radius: 50%; ile daire-->
+                                <h5>Alive - Human</h5>
+                            </div>
+                            <div class="locationContent"> <!--orjinal sitede ayrı div içinde diye dive aldım responsivede class adı yarayabilir-->
+                                <span>Last known location:</span>
+                                <p>some text</p>
+                            </div>
+                            <div class="episodeContent"> <!--orjinal sitede ayrı div içinde diye dive aldım-->
+                                <span>First seen in:</span>
+                                <p>some text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 justify-content-center align-items-center d-flex">
+                    <div class="card border-0 flex-row d-flex" style="width: 37.5rem; height: 220px;">
+                        <img class="card-image" src="images/241.jpeg">
+                        <div class="card-body">
+                            <h3 class="cardTitle mt-1">Card title</h3>
+                            <div class="d-flex align-items-center mb-3" style="width: 100%;">
+                                <span class="status-icon" style="margin-right: 0.5rem;"></span>
+                                <h5>Alive - Human</h5>
+                            </div>
+                            <div class="locationContent">
+                                <span>Last known location:</span>
+                                <p>some text</p>
+                            </div>
+                            <div class="episodeContent">
+                                <span>First seen in:</span>
+                                <p>some text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 justify-content-center align-items-center d-flex">
+                    <div class="card  border-0 flex-row d-flex" style="width: 37.5rem; height: 220px;">
+                        <img class="card-image" src="images/241.jpeg">
+                        <div class="card-body">
+                            <h3 class="cardTitle mt-1">Card title</h3>
+                            <div class="d-flex align-items-center mb-3" style="width: 100%;">
+                                <span class="status-icon" style="margin-right: 0.5rem;"></span>
+                                <h5>Alive - Human</h5>
+                            </div>
+                            <div class="locationContent">
+                                <span>Last known location:</span>
+                                <p>some text</p>
+                            </div>
+                            <div class="episodeContent">
+                                <span>First seen in:</span>
+                                <p>some text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 justify-content-center align-items-center d-flex">
+                    <div class="card border-0 flex-row d-flex" style="width: 37.5rem; height: 220px;">
+                        <img class="card-image" src="images/241.jpeg">
+                        <div class="card-body">
+                            <h3 class="cardTitle mt-1">Card title</h3>
+                            <div class="d-flex align-items-center mb-3" style="width: 100%;">
+                                <span class="status-icon" style="margin-right: 0.5rem;"></span>
+                                <h5>Alive - Human</h5>
+                            </div>
+                            <div class="locationContent">
+                                <span>Last known location:</span>
+                                <p>some text</p>
+                            </div>
+                            <div class="episodeContent">
+                                <span>First seen in:</span>
+                                <p>some text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 justify-content-center align-items-center d-flex">
+                    <div class="card border-0 flex-row d-flex" style="width: 37.5rem; height: 220px;">
+                        <img class="card-image" src="images/241.jpeg">
+                        <div class="card-body">
+                            <h3 class="cardTitle mt-1">Card title</h3>
+                            <div class="d-flex align-items-center mb-3" style="width: 100%;">
+                                <span class="status-icon" style="margin-right: 0.5rem;"></span>
+                                <h5>Alive - Human</h5>
+                            </div>
+                            <div class="locationContent">
+                                <span>Last known location:</span>
+                                <p>some text</p>
+                            </div>
+                            <div class="episodeContent">
+                                <span>First seen in:</span>
+                                <p>some text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 justify-content-center align-items-center d-flex">
+                    <div class="card border-0 flex-row d-flex" style="width: 37.5rem; height: 220px;">
+                        <img class="card-image" src="images/241.jpeg">
+                        <div class="card-body">
+                            <h3 class="cardTitle mt-1">Card title</h3>
+                            <div class="d-flex align-items-center mb-3" style="width: 100%;">
+                                <span class="status-icon" style="margin-right: 0.5rem;"></span>
+                                <h5>Alive - Human</h5>
+                            </div>
+                            <div class="locationContent">
+                                <span>Last known location:</span>
+                                <p>some text</p>
+                            </div>
+                            <div class="episodeContent">
+                                <span>First seen in:</span>
+                                <p>some text</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <footer class="footer d-flex justify-content-center align-items-center">
+            <ul class="d-flex justify-content-center align-items-center">
+                <li class="information">
+                    <a href="https://rickandmortyapi.com/api/character" title="characters" target="_blank">
+                        <span>CHARACTERS: 826</span>
+                    </a>
+                </li>
+                <li class="information">
+                    <a href="https://rickandmortyapi.com/api/location" title="locations" target="_blank">
+                        <span>LOCATIONS: 126</span>
+                    </a>
+                </li>
+                <li class="information">
+                    <a href="https://rickandmortyapi.com/api/episode" title="episodes" target="_blank">
+                        <span>EPISODES: 51</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="information mt-2">
+                <a href="https://status.rickandmortyapi.com/" target="_blank">
+                    <span>SERVER STATUS</span>
+                    <span class="status-icon" style="margin-left: 0.5rem;"></span>
+                </a>
+            </div>
+            <div class="footer-images" style="margin-top: 1.25rem;"> <!--mt-2 vs algılamadı-->
+                <a href="https://www.netlify.com/" target="_blank" style="margin-right: 1.5rem;">
+                    <img src="images/footer-netflify.PNG" width="100rem">
+                </a>
+                <a href="https://stellate.co/?ref=powered-by" target="_blank">
+                    <img src="images/footer-stellate.PNG" width="100rem">
+                </a>
+            </div>
+
+            <div class="social">
+                <ul class="d-flex justify-content-center align-items-center">
+                    <li>
+                        <a href="https://github.com/afuh/rick-and-morty-api" title="GitHub" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/rickandmortyapi" title="Twitter" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rickandmortyapi.com/support-us/" title="Support Us" target="_blank">
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="developer">
+                <span>
+                    ❮❯ by 
+                        <a href="https://github.com/afuh" target="_blank">
+                            Axal Fuhrmann
+                        </a>
+                </span>
+                <span> 2023</span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f46bf900f2.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
